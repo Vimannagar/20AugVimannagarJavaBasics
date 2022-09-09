@@ -8,8 +8,8 @@ public class NonNumericDataType {
 		char c = '@';
 		
 		char d = '1';
-		
 		char e = 'A';
+		
 		
 	
 		
@@ -25,6 +25,10 @@ public class NonNumericDataType {
 		
 		System.out.println(b);
 		
+		char r = 'q';
+		System.out.println(r);
+		
+		System.out.println(e);
 		
 		System.out.println(f);
 	}
