@@ -15,4 +15,10 @@ public class A {
 	}
 	
 	
+	public void homePage()
+	{
+		System.out.println("Home page non static method");
+	}
+	
+	
 }
