@@ -19,8 +19,6 @@ public class ThisKeyword {
 		System.out.println(s);//def
 		
 		System.out.println(this.s);
-		
-		
 	}
 	
 	public static void main(String[] args) {
@@ -28,6 +26,9 @@ public class ThisKeyword {
 		ThisKeyword tk = new ThisKeyword();
 		
 		tk.m1();
+		
+		
+		
 		
 		
 		
