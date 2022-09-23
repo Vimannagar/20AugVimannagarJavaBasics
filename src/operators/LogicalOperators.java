@@ -35,6 +35,24 @@ public class LogicalOperators {
 //	a, b, c, d check whether they are equal or not
 	
 	
+int f = 10;
+int g = 10;
+int h = 5;
+int i = 10;
+	
+if((f==g) && (h==i) && (i==g))
+{
+	System.out.println("all sides are equal");
+}
+else
+{
+	System.out.println("all sides are not equal");
+}
+	
+	
+	
+	
+	
 		
 	}
 
