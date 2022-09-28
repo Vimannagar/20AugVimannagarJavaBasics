@@ -18,6 +18,20 @@ public class Test {
 		System.out.println("one argument String  constructor");
 	}
 	
+	public Test(int i, int j)
+	{
+		System.out.println("two argument int contructor");
+	}
+	
+	public Test(int u, String p)
+	{
+		System.out.println("two argument int contructor");
+	}
+	
+	public Test(String u, int p)
+	{
+		System.out.println("two argument int contructor");
+	}
 	
 	
 	
