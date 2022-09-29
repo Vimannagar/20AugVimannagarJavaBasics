@@ -11,12 +11,13 @@ public class College {
 	String city;
 
 	
-	public College(String sname, int mmarks, String scity)
+	public College(String studentname, int mathmarks, String city)
 	{
-		studentname= sname;
+		this.studentname = studentname;
 		
-		mathmarks = mmarks;
-		city= scity;
+		this.mathmarks = mathmarks;
+		
+		this.city= city;
 	}
 	
 	public static void main(String[] args) {
