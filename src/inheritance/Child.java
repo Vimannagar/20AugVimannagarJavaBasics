@@ -17,17 +17,17 @@ public class Child extends Parent{
 		
 		Child c = new Child();
 		
-		c.bike();
+		c.bike();// child class method
 		
-		c.home();
+		c.home();// parent class method
 		
-		c.car();
+		c.car();// parent class method
 		
-		c.capital();
+		c.capital();// parent class method
 		
-		friend();
+		friend();// child class method
 		
-		furniture();
+		furniture();// parent class method
 		
 	}
 
