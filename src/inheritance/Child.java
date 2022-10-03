@@ -2,6 +2,8 @@ package inheritance;
 
 public class Child extends Parent{
 	
+	int i = 20;
+	
 	public void bike()
 	{
 		System.out.println("bike from child");
@@ -28,6 +30,18 @@ public class Child extends Parent{
 		friend();// child class method
 		
 		furniture();// parent class method
+		
+		c.farm();
+		
+		System.out.println(c.i);//20- non static variable from child class
+		
+		Parent p = new Parent();
+		
+		System.out.println(p.i);//10- non static variable from parent class
+		
+		System.out.println(s);//abc
+		
+		
 		
 	}
 
