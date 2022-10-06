@@ -4,6 +4,8 @@ public class Child extends Parent{
 	
 	int i = 20;
 	
+	int j = 80;
+	
 	public void bike()
 	{
 		System.out.println("bike from child");
@@ -13,6 +15,8 @@ public class Child extends Parent{
 	{
 		System.out.println("friend from child");
 	}
+	
+	
 	
 	
 	public static void main(String[] args) {
@@ -41,6 +45,10 @@ public class Child extends Parent{
 		
 		System.out.println(s);//abc
 		
+		
+		System.out.println(c.j);// j variable from Child class
+		
+		System.out.println(c.k); // k variable from Parent class
 		
 		
 	}

@@ -3,7 +3,7 @@ package inheritance;
 public class Parent extends GrandParent {
 	
 	int i = 10;
-	
+	String k = "def";
 	static String s = "abc";
 	
 	public void home()
