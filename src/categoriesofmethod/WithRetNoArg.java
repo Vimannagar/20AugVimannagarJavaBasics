@@ -2,7 +2,7 @@ package categoriesofmethod;
 
 public class WithRetNoArg {
 	
-	public static String m1()
+	public  String m1()
 	{
 		String s = "abc";
 		
@@ -30,7 +30,9 @@ public class WithRetNoArg {
 
 	public static void main(String[] args) {
 		
-		String a = m1();
+		WithRetNoArg wrna = new WithRetNoArg();
+		
+		String a = wrna.m1();
 	
 	System.out.println(a);
 	
