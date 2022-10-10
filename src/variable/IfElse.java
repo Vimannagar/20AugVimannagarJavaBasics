@@ -23,10 +23,13 @@ public class IfElse {
 			
 			int k = 50;
 		}
-		else
+		else if(a<b)
 		{
-			
-			System.out.println("else is executing");
+			System.out.println("first else if");
+		}
+		else if(a==b)
+		{
+			System.out.println("first else if");
 		}
 		
 	}

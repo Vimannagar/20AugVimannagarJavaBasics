@@ -12,9 +12,9 @@ public class ThisKeyword {
 		
 		String s = "def";
 		
-		System.out.println(a);//20
+		System.out.println(a);//20 --> Local variable
 		
-		System.out.println(this.a);//10
+		System.out.println(this.a);//10 --> non static variable
 		
 		System.out.println(s);//def
 		

@@ -29,7 +29,7 @@ public class Overloading {
 	{
 		System.out.println("double and character");
 	}
-	
+		
 	public static void m1(String s, double d)
 	{
 		System.out.println("static method with String and double as an argument");
@@ -43,6 +43,16 @@ public class Overloading {
 		
 		return 80;
 	}
+	
+	
+	public static void main(int i) {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+	
 	
 	
 	
