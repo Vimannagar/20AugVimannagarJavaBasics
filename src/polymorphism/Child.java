@@ -20,7 +20,7 @@ package polymorphism;
 		
 		public int m1()
 		{
-			System.out.println("m1 method with int return type");
+			System.out.println("m1 method with int return type of child class");
 			return 90;
 		}
 		
@@ -37,7 +37,19 @@ package polymorphism;
 			
 			p.marry();//parent class marry method will execute
 			
-//			Parent class parent_class_reference_variable
+//			parentclass refvariable = new childclass();--> syntax
+			
+			Parent p1 = new Child();
+			
+			p1.m1();// child class m1 method
+			
+			p1.capital();// parent class capital method
+			
+			p1.marry();// child class marry method
+			
+//			Child c1 = new Parent();--> this case is invalid 
+			
+			p1.car();
 			
 			
 			

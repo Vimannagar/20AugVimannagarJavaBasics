@@ -33,7 +33,7 @@ public class Parent
 	
 	public int m1()
 	{
-		System.out.println("no return m1 method from parent class ");
+		System.out.println(" return m1 method from parent class ");
 	return 60;
 
 	}
