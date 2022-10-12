@@ -12,5 +12,10 @@ public class A {
 	{
 		System.out.println("static method m2 from A class");
 	}
+	
+	public void m4()
+	{
+		System.out.println("m4 method from A class");
+	}
 
 }
