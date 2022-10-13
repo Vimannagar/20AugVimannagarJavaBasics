@@ -14,6 +14,9 @@ public class ClassAccessTest {
 		
 		t.m2();// default method from Test class
 		
+//		t.m3(); // private method cannot be called outside the class
+		
+		
 	}
 
 }

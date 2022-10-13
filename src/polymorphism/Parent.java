@@ -25,7 +25,7 @@ public class Parent
 		System.out.println("furniture from parent");
 	}
 	
-	public void marry()
+	public final void marry()
 	{
 		System.out.println("marry method from parent class");
 	}

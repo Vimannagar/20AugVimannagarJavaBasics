@@ -1,9 +1,12 @@
 package polymorphism;
 
 	public class Child extends Parent  {
+		final int i =50;
 		
 		public void bike()
 		{
+			i = 80;
+			System.out.println(i);
 			System.out.println("bike from child");
 		}
 		
