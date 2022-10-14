@@ -17,6 +17,11 @@ public class B extends A {
 		System.out.println("static method m2 from B class");
 	}
 	
+	protected void m7()
+	{
+		System.out.println("m7 method from B class");
+	}
+	
 	public static void main(String[] args) {
 		
 		B b = new B();
@@ -34,6 +39,12 @@ public class B extends A {
 		b.m1();// b class m1 method
 		
 		
+		
+		
+		
+		a.m1();
+		
+		b.m3();
 		
 		
 		

@@ -17,5 +17,10 @@ public class A {
 	{
 		System.out.println("m4 method from A class");
 	}
+	
+	 void m7()
+	{
+		System.out.println("m7 method from A class");
+	}
 
 }

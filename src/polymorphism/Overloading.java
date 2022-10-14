@@ -45,6 +45,13 @@ public class Overloading {
 	}
 	
 	
+	void m1(char c)
+	{
+		System.out.println(c);
+	}
+	
+	
+	
 	public static void main(int i) {
 		
 	}
