@@ -2,14 +2,14 @@ package inheritance;
 
 public class CCons extends PCons{
 	
-	public CCons()
+	public CCons(int i)
 	{
-		super(50);
 		System.out.println("zero argument constructor from Child class");
 	}
 	
 	public static void main(String[] args) {
-		CCons c = new CCons();
+//		CCons c = new CCons();--> Parent class constuctor doesnt get call directly by creating child class zero argument constructor.
+		
 		
 	}
 
