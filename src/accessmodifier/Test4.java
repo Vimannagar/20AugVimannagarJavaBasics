@@ -1,5 +1,5 @@
 package accessmodifier;
 
-public class Test4 extends Test3 {
+public class Test4  {
 
 }

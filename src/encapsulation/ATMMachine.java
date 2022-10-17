@@ -10,7 +10,7 @@ public class ATMMachine {
 		
 		server.getBalance(1234);
 		
-		server.setBalance(5000);
+		server.setBalance(5000, 1233);
 		
 		server.getBalance(1234);
 		

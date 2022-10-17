@@ -5,7 +5,7 @@ package polymorphism;
 		
 		public void bike()
 		{
-			i = 80;
+//			i = 80;
 			System.out.println(i);
 			System.out.println("bike from child");
 		}
@@ -16,10 +16,10 @@ package polymorphism;
 		}
 		
 		
-		public void marry()
-		{
-			System.out.println("child class specific marry method");
-		}
+//		public void marry()// as this is a final method so cannot be override
+//		{
+//			System.out.println("child class specific marry method");
+//		}
 		
 		public int m1()
 		{

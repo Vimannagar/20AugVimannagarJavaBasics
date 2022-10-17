@@ -27,8 +27,10 @@ private	double customer1= 50000;
 	}
 	
 	
-	public void setBalance(int amount)
+	public void setBalance(int amount, int pin)
 	{
+		if (pin==1234)
+		{
 		if(amount <=customer1)
 		{
 			customer1 = customer1 - amount;
@@ -37,6 +39,11 @@ private	double customer1= 50000;
 		else
 		{
 			System.out.println("Insufficient balance");
+		}
+		}
+		else 
+		{
+			System.out.println("Invalid entry please try again");
 		}
 		
 	
