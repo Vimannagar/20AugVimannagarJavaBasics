@@ -11,7 +11,7 @@ public class College {
 	String city;
 
 	
-	public College(String studentname, int mathmarks, String city)
+	public  College(String studentname, int mathmarks, String city)
 	{
 		this.studentname = studentname;
 		

@@ -9,4 +9,9 @@ public class C {
 		System.out.println("static method m1 from C class");
 	}
 
+	
+	public  void m2()
+	{
+		System.out.println("non static method m2 from C class");
+	}
 }

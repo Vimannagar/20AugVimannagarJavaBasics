@@ -19,6 +19,17 @@ public abstract class A {
 	public abstract void deleteProfile();
 	
 	
+	public  static void projectName()
+	{
+		System.out.println("Static methods");
+	}
+
+
+	
+	public static void main(String[] args)
+	{
+		
+	}
 	
 
 }
