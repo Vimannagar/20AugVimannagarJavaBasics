@@ -16,7 +16,7 @@ package polymorphism;
 		}
 		
 		
-//		public void marry()// as this is a final method so cannot be override
+//		public void marry()// as this is a final method in parent class so cannot be override
 //		{
 //			System.out.println("child class specific marry method");
 //		}
