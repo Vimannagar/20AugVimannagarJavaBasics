@@ -2,28 +2,34 @@ package interfacediscussion;
 
 public class Chrome implements Browser {
 
-	@Override
+	
 	public void openBrowser() {
-		// TODO Auto-generated method stub
+		System.out.println("Open browser from chrome");
 		
 	}
 
-	@Override
+
 	public void close() {
-		// TODO Auto-generated method stub
+		System.out.println("close browser from Chrome");
 		
 	}
 
-	@Override
+	
 	public void newTab() {
-		// TODO Auto-generated method stub
+	System.out.println("new tab from Chrome");
 		
 	}
 
-	@Override
+	
 	public void refresh() {
-		// TODO Auto-generated method stub
+		System.out.println("Refresh from Chrome");
 		
+	}
+	
+	
+	public void incognito()
+	{
+		System.out.println("Chrome incognito mode");
 	}
 
 }
