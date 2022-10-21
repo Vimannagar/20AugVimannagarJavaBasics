@@ -33,6 +33,8 @@ public class Test implements Interface2, Interface1
 	
 	public void m5() {
 		System.out.println("m5 method from Test class");
+		
+		InterfaceWithStaticMethod.m1();
 	}
 	
 	

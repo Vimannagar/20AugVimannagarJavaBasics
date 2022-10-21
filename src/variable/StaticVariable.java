@@ -11,6 +11,8 @@ public class StaticVariable {
 	static String s = "Henry";
 	
 	
+	
+	
 	public static void m1()
 	{
 		System.out.println(b);

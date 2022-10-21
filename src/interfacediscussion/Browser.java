@@ -1,10 +1,10 @@
 package interfacediscussion;
 
-public interface Browser {
+public  interface Browser {
 	
 	 void openBrowser();
 	 	 
-	 public void close();
+	 public abstract void close();
 	 
 	 public void newTab();
 	 
