@@ -28,8 +28,37 @@ public class MethodInString {
 		
 //		WAP to print all the characters of a String one by one- Velocity
 		
+		String s3 = "Velocity";
+		
+		int lastindexposition = s3.length()-1;
+		
+		for(int i=0; i<=lastindexposition; i++)
+		{
+			char charvalue =s3.charAt(i);
+			
+			System.out.println(charvalue);
+		}
+		
 //		WAP to print the reverse of a String - abcdef--> fedcba
-	
+		
+		
+		String s4 = "abcdef";
+		
+		String reverse = "";
+		int s5 = s4.length()-1;
+		
+		for(int j=s5; j>=0; j--)
+		{
+			char s6 = s4.charAt(j);
+			
+			reverse = reverse + s6;
+		}
+		
+		System.out.println("Reverse of string is :"+reverse);
+		
+//WAP to count occurance of 'a' character inside a string - Philadelphia	
+		
+		
 		
 	}
 
