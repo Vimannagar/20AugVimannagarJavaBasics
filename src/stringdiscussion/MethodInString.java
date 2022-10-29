@@ -58,8 +58,118 @@ public class MethodInString {
 		
 //WAP to count occurance of 'a' character inside a string - Philadelphia	
 		
+		String s7 = "Philadelphia";
+		
+		int count = 0;
+		
+		for(int i=0; i<s7.length(); i++ )
+		{
+			char s8 = s7.charAt(i);
+			
+			if(s8=='a')
+			{
+				count++;
+			}
+		}
+		
+		System.out.println(count);
+		
+	System.out.println("****************************************");
+	
+//		3. equals(String s)
+		
+		String s9 = "Velocity";
+		
+		String s10 = "Velocity";
+		
+		boolean s11 = s9.equals(s10);
+		
+		System.out.println(s11);// true
+		
+		System.out.println("****************************************");
+		
+//		4. equalsIgnoreCase(String s): 
+		
+		String s12 = "Velocity";
+		
+		String s13 = "velocity";
+		
+	boolean	s14 = s12.equalsIgnoreCase(s13);
+	
+	System.out.println(s14);//true
+		
+	System.out.println("****************************************");
+	
+//	5. concat(String s):
+	
+	String s15 = "Viman";
+	
+	String s16 = "nagar";
+	
+	String s17 = s15.concat(s16);
+	
+	System.out.println(s17);//Vimannagar
+	
+	System.out.println("****************************************");
+	
+	
+//	6. substring(int index):
+	
+	
+	String s18 = "Punecity";
+	
+	String s19 = s18.substring(4);
+	
+	System.out.println(s19);//city
+	
+	System.out.println("****************************************");	
+
+	//	7. substring(int begin, int end)
+	
+	
+	String s20 = "Narmadapuram";
+	
+	String s21 = s20.substring(3, 6);
+	
+	System.out.println(s21);//Narmada
 		
 		
+	System.out.println("****************************************");		
+		
+//	8. replace(char old, char new):
+	
+	String s22 = "abcdbf";
+	
+	String s23 = s22.replace('b', 'c');
+	
+	System.out.println(s23);//accdcf
+	System.out.println("****************************************");			
+	
+	
+//	9. replace(String old, String new):
+	
+	String s24 = "Punecity";
+	
+	String s25 = s24.replace("city", "mahanagar");
+	
+	
+	System.out.println(s25);//punemahanagar
+	
+	
+//	WAP to remove all the spaces from String - "this is String"
+	
+//	10. trim(): 
+	
+	String s26 = "    This    is a     String      "; 
+	
+	String s27 = s26.trim();
+	
+	System.out.println(s27);//This    is a     String
+	
+	
+//	WAP to replace the unnecessary space value by single space in between the String - This    is a     String Output: -->This is a String 
+	
+	
 	}
 
 }
