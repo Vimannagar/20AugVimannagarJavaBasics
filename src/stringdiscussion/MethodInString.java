@@ -155,8 +155,16 @@ public class MethodInString {
 	
 	System.out.println(s25);//punemahanagar
 	
-	
+	System.out.println("*************************************");
 //	WAP to remove all the spaces from String - "this is String"
+	
+	String s28 = "this is String";
+	
+	String s29 = s28.replace(" ", "");
+	
+	System.out.println(s29);
+	
+	System.out.println("*************************************");
 	
 //	10. trim(): 
 	
@@ -168,6 +176,52 @@ public class MethodInString {
 	
 	
 //	WAP to replace the unnecessary space value by single space in between the String - This    is a     String Output: -->This is a String 
+	System.out.println("*************************************");
+	
+//	11. contains(String s):
+	
+	
+	String s30 = "abcdef";
+	
+	boolean s31 = s30.contains("fe");
+	
+	System.out.println(s31);//true
+	
+	
+	
+//	12. toLowerCase():
+	
+	
+	String s32 = "VelOcitY";
+	
+	String s33 = s32.toLowerCase();
+	
+	System.out.println(s33);//velocity
+	System.out.println("*************************************");
+	
+//	13. toUpperCase():
+	
+	String s34 = "velocity";
+	
+	String s35 = s34.toUpperCase();
+	
+	System.out.println(s35);//VELOCITY
+	
+	
+	System.out.println("*************************************");
+	
+//	WAP to check whether the String is Palindrome or not irrespective of their case
+	
+	
+//	14. indexOf(char c):
+	
+	String s36 = "abcdef";
+	
+	int s37 = s36.indexOf('a');
+	
+	System.out.println(s37);
+	
+//	15. split
 	
 	
 	}
