@@ -12,6 +12,7 @@ public class DefinitionOfArray {
 		a[0] = 50;
 		a[1] = 10;
 		a[3] = 12;
+		
 		a[2] = 5; 
 		a[4] = 9;
 		
