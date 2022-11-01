@@ -221,7 +221,17 @@ public class MethodInString {
 	
 	System.out.println(s37);
 	
-//	15. split
+//	15. split(String s):
+	
+	String s38 = "This is a String";
+	
+String [] s39 = s38.split("i");
+
+		for(String s40:s39)
+		{
+			System.out.println(s40);
+		}
+	
 	
 	
 	}
