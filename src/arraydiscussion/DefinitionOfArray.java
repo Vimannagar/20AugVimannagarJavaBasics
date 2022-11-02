@@ -99,7 +99,7 @@ public class DefinitionOfArray {
 		
 //		WAP to sort an array in ascending and descending order
 		
-		
+//	WAP to find out the missing number from an array - {1, 5, 3, 2, 6}
 		
 		
 		

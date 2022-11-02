@@ -225,13 +225,123 @@ public class MethodInString {
 	
 	String s38 = "This is a String";
 	
-String [] s39 = s38.split("i");
+String [] s39 = s38.split("i");	
 
 		for(String s40:s39)
 		{
 			System.out.println(s40);
 		}
+System.out.println("***************************************");		
+
+//	startsWith()
+		
+		String s40 = "Denver";
+		
+		boolean s41 = s40.startsWith("Den");
+		
+		System.out.println(s41);//true
+		
+//		endsWith():
+		
+		boolean s42 = s40.endsWith("er");
+		
+		System.out.println(s42);//true
 	
+		
+		
+//		conversion of non primitive to primitive data type
+		
+		String s43 = "10";
+		
+		int s44 = Integer.parseInt(s43);
+	
+		System.out.println(s44+2);//12
+		
+		
+		
+		String s45 = "true";
+		
+		boolean s46 = Boolean.parseBoolean(s45);
+		
+		System.out.println(s46);//true
+		
+		
+		String s47 = "86.23";
+		
+		double	s48 = Double.parseDouble(s47);
+	
+		System.out.println(s48);//86.23
+		
+	System.out.println("*********************************");	
+	
+//		toCharArray(): 
+		
+		String s49 = "abcdef";
+		
+		char [] s50= s49.toCharArray();
+		
+		for(char s51 :s50)
+		{
+			System.out.println(s51);
+		}
+		
+		
+		
+		
+//		conversion of  primitive to non primitive data type
+		
+		
+	int s52 = 56;
+		
+	String s53 = String.valueOf(s52);
+	
+	System.out.println(s53);//56
+	
+	
+	char s54 = 'a';
+	
+	String s55 = String.valueOf(s54);
+	
+	System.out.println(s55);//a
+	
+	
+	double s56 = 82.56;
+	
+	String s57 = String.valueOf(s56);
+	
+	System.out.println(s57);//82.56
+	
+	System.out.println("***************************");
+	
+	
+//	isAlphabetic(char c)
+	
+	char s58 = 'a';
+	
+	boolean s59 = Character.isAlphabetic(s58);
+	System.out.println(s59); // true
+	
+	System.out.println("***************************");
+//	isDigit(char c)
+	
+	char s60 = '9';
+	
+	boolean s61 = Character.isDigit(s60);
+	
+	System.out.println(s61);//true
+	
+//	WAP to count the number of numeric characters inside a String- "Ph2o2e5n90ix"
+	
+	
+//	WAP to count the number of capital letter(upper case) inside a String- "HelLO"
+	
+	
+	
+
+	
+	
+	
+		
 	
 	
 	}
