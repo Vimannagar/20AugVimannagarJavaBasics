@@ -335,9 +335,43 @@ System.out.println("***************************************");
 	
 //	WAP to count the number of capital letter(upper case) inside a String- "HelLO"
 	
+	System.out.println("***************************");
 	
+//	replaceAll(String regex, String s):
 	
+	String s62 = "Spring";
+	
+	String s63 = s62.replaceAll("[A-Z]", "q");
+	
+	System.out.println(s63);//qpring
+	
+	String s64 = "Houston";
+	
+	String s65 = s64.replaceAll("[a-z]", "Q");
+	
+	System.out.println(s65);//HQQQQQQ
 
+	String s66 = "Spring";
+	
+	String s67 = s66.replaceAll("[A-Za-h]", "!");
+	
+	System.out.println(s67);//!prin!
+	
+	String s68 = "A322cce$#$#nt234ure";
+	
+	String s69 = s68.replaceAll("[A-Za-z]", "");
+	
+	System.out.println(s69);//322$#$#234
+	
+	
+	String s70 = s68.replaceAll("[^A-Za-z]", "");
+	
+	
+	System.out.println(s70);//Accenture
+	
+	String s71 = s68.replaceAll("[A-Za-z0-9]", "");
+	
+	System.out.println(s71);//$#$#
 	
 	
 	
