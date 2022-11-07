@@ -9,7 +9,6 @@ public class CheckedCategoryException {
 	
 	public static void main(String[] args) {
 		
-		
 		String filepath = "F:\\Desktop\\VimanNagar\\20 Aug\\Java basics.docx";
 	
 		try {
@@ -24,6 +23,7 @@ public class CheckedCategoryException {
 			System.out.println("file not found exception arrive");
 		
 		}
+		
 		
 		
 		
