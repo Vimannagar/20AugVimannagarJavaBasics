@@ -2,7 +2,7 @@ package exceptionhandling;
 
 public class ThrowsKeyword2 {
 	
-	public static void main(String[] args) throws NullPointerException 
+	public static void main(String[] args) throws NullPointerException
 	
 	{		
 		String s1 = null;
