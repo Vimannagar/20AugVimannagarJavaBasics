@@ -31,6 +31,7 @@ public class ArrayListDisc {
 		
 		al.remove("ghi");
 		
+		
 		System.out.println(al);//[def, xyz]
 	
 //		to update the collection
