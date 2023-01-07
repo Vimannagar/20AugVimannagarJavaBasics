@@ -37,6 +37,7 @@ public class HashMapDisc {
 		
 		lhm.put(50, "Bengaluru");
 		
+		
 		lhm.put(78, "Chennai");
 		
 		System.out.println(lhm);
