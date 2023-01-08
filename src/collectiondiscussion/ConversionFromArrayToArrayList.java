@@ -2,6 +2,7 @@ package collectiondiscussion;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 
 public class ConversionFromArrayToArrayList {
 	
@@ -10,8 +11,7 @@ public class ConversionFromArrayToArrayList {
 		
 //		conversion of Array to ArrayList
 		
-		Integer i [] = {45, 2,6, 8, 10};
-		
+		Integer i [] = {45, 2,6, 8, 10, 10};
 		
 		
 		ArrayList<Integer> al = new ArrayList<Integer>(Arrays.asList(i));
